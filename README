@@ -19,12 +19,12 @@ theta. All output is written to standard out.
 
 Example:
 
-$ head -3 mydata.txt
+$ head -3 data.txt
  4 0.91643
  23 3.23709
  7 0.40103
 
-$ a.out mydata.txt 2500 > output.csv
+$ a.out data.txt 2500 > output.csv
 
 This code borrows from the nVidia developer zone documentation, 
 specifically http://docs.nvidia.com/cuda/curand/index.html#topic_1_2_1
